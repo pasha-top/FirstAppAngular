@@ -13,7 +13,7 @@ import { HeroService } from './services/hero.service';
 export class AppComponent {
     title = 'My First Angular 2 App "Heroes"';
     selectedHero: Hero;
-    heroes = Hero[];
+    heroes: Hero[];
 
     constructor(private heroService: HeroService) { }
 
