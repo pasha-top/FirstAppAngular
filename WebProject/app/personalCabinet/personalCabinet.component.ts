@@ -24,5 +24,6 @@ export class PersonalCabinet implements OnInit {
 
     public ngOnInit(): void {
         this._linkList = this._usefullLinkService.GetLinks();
+        console.log(this._linkList);
     }
 }
