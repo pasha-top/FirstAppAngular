@@ -72,6 +72,7 @@
   <ItemGroup>
     <Content Include="app\app.component.css" />
     <Content Include="app\app.component.template.html" />
+    <Content Include="app\hero\hero.component.template.html" />
     <Content Include="Index.html" />
     <Content Include="package.json" />
     <Content Include="packages.config" />
@@ -102,6 +103,7 @@
     <TypeScriptCompile Include="app\app.module.ts" />
     <Content Include="app\hero-detail\hero-detail.component.template.html" />
     <TypeScriptCompile Include="app\hero-detail\hero-detail.component.ts" />
+    <TypeScriptCompile Include="app\hero\hero.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\models\hero.ts" />
     <TypeScriptCompile Include="app\services\hero.service.ts" />
