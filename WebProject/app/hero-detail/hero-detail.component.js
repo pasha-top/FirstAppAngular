@@ -9,19 +9,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require('@angular/core');
-const hero_1 = require("../models/hero");
+const router_1 = require('@angular/router');
+const common_1 = require('@angular/common');
+require('rxjs/add/operator/switchMap');
+const hero_service_1 = require('../services/hero.service');
 let HeroDetailComponent = class HeroDetailComponent {
+    constructor(heroService, route, location) {
+        this.heroService = heroService;
+        this.route = route;
+        this.location = location;
+    }
+    ngOnInit() {
+        this.route.params
+            .switchMap((params) => this.heroService.getHero(+params['id']))
+            .subscribe(hero => this.hero = hero);
+    }
+    ;
+    goBack() {
+        this.location.back();
+    }
+    ;
 };
-__decorate([
-    core_1.Input(), 
-    __metadata('design:type', hero_1.Hero)
-], HeroDetailComponent.prototype, "hero", void 0);
 HeroDetailComponent = __decorate([
     core_1.Component({
         selector: 'my-hero-detail',
         templateUrl: '/app/hero-detail/hero-detail.component.template.html'
     }), 
-    __metadata('design:paramtypes', [])
+    __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.ActivatedRoute, common_1.Location])
 ], HeroDetailComponent);
 exports.HeroDetailComponent = HeroDetailComponent;
 //# sourceMappingURL=hero-detail.component.js.map
