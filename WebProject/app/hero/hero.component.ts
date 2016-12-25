@@ -7,7 +7,7 @@ import {Router} from "@angular/router"
 @Component({
     selector: 'my-heroes',
     templateUrl: '/app/hero/hero.component.template.html',
-    styleUrls: ['app/app.component.css']
+    styleUrls: ['./app/hero/hero.component.css']
 })
 
 
@@ -32,7 +32,6 @@ export class HeroComponent {
     };
 
     gotoDetail(): void {
-        console.log(this.selectedHero);
         this.router.navigate(['/detail', this.selectedHero.id]);
     }
 

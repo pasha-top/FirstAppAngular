@@ -73,10 +73,13 @@
     <Content Include="app\app.component.css" />
     <Content Include="app\app.component.template.html" />
     <Content Include="app\dashboard\dashboard.component.template.html" />
+    <Content Include="app\hero-detail\hero-detail.component.css" />
+    <Content Include="app\hero\hero.component.css" />
     <Content Include="app\hero\hero.component.template.html" />
     <Content Include="Index.html" />
     <Content Include="package.json" />
     <Content Include="packages.config" />
+    <Content Include="app\dashboard\dashboard.component.css" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

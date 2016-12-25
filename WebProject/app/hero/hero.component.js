@@ -30,7 +30,6 @@ let HeroComponent = class HeroComponent {
     }
     ;
     gotoDetail() {
-        console.log(this.selectedHero);
         this.router.navigate(['/detail', this.selectedHero.id]);
     }
 };
@@ -38,7 +37,7 @@ HeroComponent = __decorate([
     core_1.Component({
         selector: 'my-heroes',
         templateUrl: '/app/hero/hero.component.template.html',
-        styleUrls: ['app/app.component.css']
+        styleUrls: ['./app/hero/hero.component.css']
     }), 
     __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
 ], HeroComponent);
