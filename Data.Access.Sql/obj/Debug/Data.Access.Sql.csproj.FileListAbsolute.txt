@@ -1,0 +1,14 @@
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\DB.mdf
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\DB_log.ldf
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\Data.Access.Sql.dll.config
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\Data.Access.Sql.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\Data.Access.Sql.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\EntityFramework.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\EntityFramework.SqlServer.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\EntityFramework.xml
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\EntityFramework.SqlServer.xml
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\obj\Debug\Data.Access.Sql.csprojResolveAssemblyReference.cache
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\obj\Debug\Data.Access.Sql.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\obj\Debug\Data.Access.Sql.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\AutoMapper.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Data.Access.Sql\bin\Debug\AutoMapper.xml

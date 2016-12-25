@@ -1,0 +1,13 @@
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\Business.Logic.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\obj\Debug\Business.Logic.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\DB.mdf
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\DB_log.ldf
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\AutoMapper.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\Data.Access.Sql.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\EntityFramework.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\Data.Access.Sql.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\AutoMapper.xml
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\bin\Debug\EntityFramework.xml
+C:\SCE\Krukocha\Repos\FirstAppAngular2\FirstAppAngular\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
