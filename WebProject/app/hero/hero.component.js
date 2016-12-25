@@ -10,9 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 const core_1 = require('@angular/core');
 const hero_service_1 = require('../services/hero.service');
+const router_1 = require("@angular/router");
 let HeroComponent = class HeroComponent {
-    constructor(heroService) {
+    constructor(heroService, router) {
         this.heroService = heroService;
+        this.router = router;
         this.title = 'My tours of Heroes';
     }
     getHeroes() {
@@ -27,6 +29,10 @@ let HeroComponent = class HeroComponent {
         this.selectedHero = hero;
     }
     ;
+    gotoDetail() {
+        console.log(this.selectedHero);
+        this.router.navigate(['/detail', this.selectedHero.id]);
+    }
 };
 HeroComponent = __decorate([
     core_1.Component({
@@ -34,7 +40,7 @@ HeroComponent = __decorate([
         templateUrl: '/app/hero/hero.component.template.html',
         styleUrls: ['app/app.component.css']
     }), 
-    __metadata('design:paramtypes', [hero_service_1.HeroService])
+    __metadata('design:paramtypes', [hero_service_1.HeroService, router_1.Router])
 ], HeroComponent);
 exports.HeroComponent = HeroComponent;
 //# sourceMappingURL=hero.component.js.map

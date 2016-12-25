@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app-roting.module.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <Content Include="app\hero-detail\hero-detail.component.template.html" />
     <TypeScriptCompile Include="app\dashboard\dashboard.component.ts" />

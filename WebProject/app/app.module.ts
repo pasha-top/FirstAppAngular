@@ -8,12 +8,14 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import {HeroService} from "./services/hero.service";
 import {HeroComponent} from "./hero/hero.component"
 import {DashboardComponent} from "./dashboard/dashboard.component";
+import {AppRoutingModule} from "./app-roting.module"
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
-        RouterModule.forRoot([{
+        AppRoutingModule
+        /*RouterModule.forRoot([{
             path: 'heroes',
             component: HeroComponent
         }, {
@@ -30,7 +32,7 @@ import {DashboardComponent} from "./dashboard/dashboard.component";
             component: HeroDetailComponent
         }
 
-        ])
+        ])*/
     ],
     declarations: [
         AppComponent,
