@@ -22,7 +22,7 @@ let HeroComponent = class HeroComponent {
     }
     ;
     ngOnInit() {
-        this.getHeroes();
+        this.heroService.getHeroess();
     }
     ;
     onSelect(hero) {

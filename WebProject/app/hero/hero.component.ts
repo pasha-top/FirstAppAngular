@@ -24,7 +24,7 @@ export class HeroComponent {
     };
 
     ngOnInit(): void {
-        this.getHeroes();
+        this.heroService.getHeroess();
     };
 
     onSelect(hero: Hero): void {
