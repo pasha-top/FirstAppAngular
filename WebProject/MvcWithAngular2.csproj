@@ -145,6 +145,7 @@
     <Content Include="app\hero-detail\hero-detail.component.css" />
     <Content Include="app\hero\hero.component.css" />
     <Content Include="app\hero\hero.component.template.html" />
+    <Content Include="Global.asax" />
     <Content Include="package.json" />
     <Content Include="packages.config" />
     <Content Include="app\dashboard\dashboard.component.css" />
@@ -158,6 +159,7 @@
     <Content Include="TyList.html" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -166,7 +168,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Models\Hero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -186,9 +192,7 @@
     <TypeScriptCompile Include="app\services\hero.service.ts" />
     <TypeScriptCompile Include="app\rxjs-operators.ts" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Default\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Business.Logic\Business.Logic.csproj">
       <Project>{5B03797E-7CD2-4EEE-98BD-0806414C5D54}</Project>

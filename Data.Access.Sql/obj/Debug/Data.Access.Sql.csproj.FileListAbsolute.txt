@@ -25,3 +25,4 @@ C:\SCE\Krukocha\Repos\FirstAppAngular2\Data.Access.Sql\bin\Debug\EntityFramework
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Data.Access.Sql\bin\Debug\EntityFramework.SqlServer.xml
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Data.Access.Sql\obj\Debug\Data.Access.Sql.dll
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Data.Access.Sql\obj\Debug\Data.Access.Sql.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\Data.Access.Sql\obj\Debug\Data.Access.Sql.csprojResolveAssemblyReference.cache

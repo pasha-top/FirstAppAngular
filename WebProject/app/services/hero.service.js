@@ -24,15 +24,6 @@ exports.HEROES = [
     { id: 20, name: 'Tornado' }
 ];
 let HeroService = class HeroService {
-    constructor(http) {
-        this.http = http;
-        this.heroesUrl = 'Home/Index'; // URL to web API
-    }
-    getHeroess() {
-        return this.http.get(this.heroesUrl)
-            .map(this.extractData)
-            .catch(this.handleError);
-    }
     extractData(res) {
         console.log(res);
         let body = res.json();
@@ -62,7 +53,7 @@ let HeroService = class HeroService {
 };
 HeroService = __decorate([
     core_1.Injectable(), 
-    __metadata('design:paramtypes', [http_1.Http])
+    __metadata('design:paramtypes', [])
 ], HeroService);
 exports.HeroService = HeroService;
 //# sourceMappingURL=hero.service.js.map

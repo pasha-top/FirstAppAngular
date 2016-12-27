@@ -18,13 +18,7 @@ export const HEROES: Hero[] = [
 
 @Injectable()
 export class HeroService {
-    private heroesUrl = 'Home/Index';  // URL to web API
-    constructor(private http: Http) { }
-    getHeroess(): Observable<Hero[]> {
-        return this.http.get(this.heroesUrl)
-            .map(this.extractData)
-            .catch(this.handleError);
-    }
+   
     private extractData(res: Response) {
         console.log(res);
         let body = res.json();
