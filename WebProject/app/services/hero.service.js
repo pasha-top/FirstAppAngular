@@ -9,8 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require('@angular/core');
-const http_1 = require('@angular/http');
-const Observable_1 = require('rxjs/Observable');
 exports.HEROES = [
     { id: 11, name: 'Mr. Nice' },
     { id: 12, name: 'Narco' },
@@ -24,25 +22,6 @@ exports.HEROES = [
     { id: 20, name: 'Tornado' }
 ];
 let HeroService = class HeroService {
-    extractData(res) {
-        console.log(res);
-        let body = res.json();
-        return body.data || {};
-    }
-    handleError(error) {
-        // In a real world app, we might use a remote logging infrastructure
-        let errMsg;
-        if (error instanceof http_1.Response) {
-            const body = error.json() || '';
-            const err = body.error || JSON.stringify(body);
-            errMsg = `${error.status} - ${error.statusText || ''} ${err}`;
-        }
-        else {
-            errMsg = error.message ? error.message : error.toString();
-        }
-        console.error(errMsg);
-        return Observable_1.Observable.throw(errMsg);
-    }
     getHeroes() {
         return Promise.resolve(exports.HEROES);
     }

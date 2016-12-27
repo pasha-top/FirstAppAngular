@@ -7,7 +7,7 @@ using  AutoMapper;
 
 namespace Business.Logic.Services
 {
-    public class HeroService : IHeroService
+    public class HeroService : IServices.IHeroService
     {
         private readonly ContextDb _context;
         public HeroService()

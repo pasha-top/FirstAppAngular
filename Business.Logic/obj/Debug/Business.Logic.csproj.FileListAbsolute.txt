@@ -24,3 +24,6 @@ C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\bin\Debug\EntityFramework.
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\obj\Debug\Business.Logic.dll
 C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\bin\Debug\Business.Logic.dll.config
+C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\SCE\Krukocha\Repos\FirstAppAngular2\Business.Logic\bin\Debug\EntityFramework.SqlServer.xml

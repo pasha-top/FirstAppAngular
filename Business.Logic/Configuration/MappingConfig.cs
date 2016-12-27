@@ -8,11 +8,10 @@ namespace Business.Logic.Configuration
     {
         public static void Configure()
         {
-            var config = new MapperConfiguration(cfg => {
+            Mapper.Initialize(cfg =>
+            {
                 cfg.CreateMap<DA.Hero, Hero>();
             });
-
-            config.CreateMapper();
         }
     }
 }

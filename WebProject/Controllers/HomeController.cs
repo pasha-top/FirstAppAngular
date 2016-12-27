@@ -13,5 +13,6 @@ namespace MvcWithAngular2.Controllers
         {
             return View();
         }
+
     }
 }

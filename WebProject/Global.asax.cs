@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using Business.Logic.Configuration;
 
 namespace MvcWithAngular2
 {
@@ -14,6 +15,7 @@ namespace MvcWithAngular2
         protected void Application_Start(object sender, EventArgs e)
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            MappingConfig.Configure();
         }
         
     }
