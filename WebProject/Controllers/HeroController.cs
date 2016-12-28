@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using Business.Logic.Services;
 using Business.Logic.Services.IServices;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace MvcWithAngular2.Controllers
 {
@@ -20,7 +22,12 @@ namespace MvcWithAngular2.Controllers
         [HttpGet]
         public JsonResult GetHeroes()
         {
-            var result = _heroservice.GetHeroes();
+            var heroes = _heroservice.GetHeroes();
+
+            var result = new
+            {
+                data = heroes
+            };
 
             return Json(result, JsonRequestBehavior.AllowGet);
         }

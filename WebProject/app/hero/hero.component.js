@@ -30,7 +30,7 @@ let HeroComponent = class HeroComponent {
     }
     ;
     gotoDetail() {
-        this.router.navigate(['/detail', this.selectedHero.id]);
+        this.router.navigate(['/detail', this.selectedHero.Id]);
     }
 };
 HeroComponent = __decorate([

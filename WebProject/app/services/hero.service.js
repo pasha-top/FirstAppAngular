@@ -9,30 +9,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 const core_1 = require('@angular/core');
-exports.HEROES = [
-    { id: 11, name: 'Mr. Nice' },
-    { id: 12, name: 'Narco' },
-    { id: 13, name: 'Bombasto' },
-    { id: 14, name: 'Celeritas' },
-    { id: 15, name: 'Magneta' },
-    { id: 16, name: 'RubberMan' },
-    { id: 17, name: 'Dynama' },
-    { id: 18, name: 'Dr IQ' },
-    { id: 19, name: 'Magma' },
-    { id: 20, name: 'Tornado' }
-];
+const http_1 = require('@angular/http');
+require('rxjs/add/operator/toPromise');
 let HeroService = class HeroService {
+    constructor(http) {
+        this.http = http;
+    }
     getHeroes() {
-        return Promise.resolve(exports.HEROES);
+        return this.http.get("/Hero/GetHeroes")
+            .toPromise()
+            .then(response => response.json().data)
+            .catch(this.handleError);
+    }
+    handleError(error) {
+        console.error('An error occurred', error); // for demo purposes only
+        return Promise.reject(error.message || error);
     }
     getHero(id) {
         return this.getHeroes()
-            .then(heroes => heroes.find(hero => hero.id === id));
+            .then(heroes => heroes.find(hero => hero.Id === id));
     }
 };
 HeroService = __decorate([
     core_1.Injectable(), 
-    __metadata('design:paramtypes', [])
+    __metadata('design:paramtypes', [http_1.Http])
 ], HeroService);
 exports.HeroService = HeroService;
 //# sourceMappingURL=hero.service.js.map

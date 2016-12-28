@@ -22,7 +22,7 @@ let HeroDetailComponent = class HeroDetailComponent {
     }
     ngOnInit() {
         this.route.params
-            .switchMap((params) => this.heroService.getHero(+params['id']))
+            .switchMap((params) => this.heroService.getHero(+params['Id']))
             .subscribe(hero => this.hero = hero);
     }
     ;

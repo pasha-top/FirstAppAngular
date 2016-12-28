@@ -19,6 +19,7 @@ export class HeroComponent {
         
     }
 
+
     getHeroes(): void {
         this.heroService.getHeroes().then(heroes => this.heroes = heroes);
     };
@@ -32,7 +33,7 @@ export class HeroComponent {
     };
 
     gotoDetail(): void {
-        this.router.navigate(['/detail', this.selectedHero.id]);
+        this.router.navigate(['/detail', this.selectedHero.Id]);
     }
 
 }
